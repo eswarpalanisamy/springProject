@@ -22,7 +22,7 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		logger.info("Welcome to home-Edited Again! The client locale is {}.", locale);
+		logger.info("Welcome to home-GITPRO-5 The client locale is {}.", locale);
 	
 		return "home";
 	}
